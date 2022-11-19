@@ -1,3 +1,4 @@
+
 function prikazi() {
     var x = document.getElementById("pregled");
     if (x.style.display === "none") {
@@ -88,7 +89,7 @@ $('#izmeniForm').submit(function () {
           location.reload(true);
           //$('#izmeniForm').reset;
       }
-      else console.log('Muzej nije izmenjen ' + response);
+      else console.log('Pregled nije izmenjen ' + response);
       console.log(response);
   });
 
@@ -169,4 +170,3 @@ function appandRow(obj) {
     `);
   });
 }
-
