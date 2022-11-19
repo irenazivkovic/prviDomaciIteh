@@ -167,7 +167,7 @@ else {
             <div class="modal-dialog">
 
                 <!-- Modalna forma za izmenu izabranog pregleda-->
-                <div class="modal-content">
+                <div id="myModal" class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
@@ -177,6 +177,7 @@ else {
                                 <h3 style="color: #006699">Izmena pregled</h3>
                                 <div class="row">
                                     <div class="col-md-6">
+                                        
                                         <div class="form-group">
                                             <input id="idid" type="text" name="id" class="form-control" placeholder="Id pregleda *" value="" readonly />
                                         </div>
@@ -211,10 +212,13 @@ else {
             </div>
         </div>
 
+
+
         <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
         <script src="js/main.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+
+
         <script>
         function pretrazi() {
 

@@ -47,5 +47,11 @@ class Pregled{
         $query = "UPDATE pregled SET zubar='$zubar', grad='$grad', kategorija='$kategorija', datum='$datum'WHERE id=$id";
         return $conn->query($query);
     }
+
+    public static function getLast(mysqli $conn)
+    {
+        $q = "SELECT * FROM pregled ORDER BY id DESC LIMIT 1";
+        return $conn->query($q);
+    }
 }
 ?>

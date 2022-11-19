@@ -37,9 +37,11 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 <html lang="en">
 <head>
     <title>Prijava</title>
+    <link rel="icon" href="css/img/logo2.png" />
 </head>
 <body>
     <style type="text/css">
+        
         #text{
             height: 25px;
             border-radius: 5px;
@@ -61,7 +63,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             margin: auto;
             width: 60%;
             padding: 1em;
-            height: 700px;
+            height: 780px;
             box-sizing: border-box;
             background-color: #e5f3f8;
             
